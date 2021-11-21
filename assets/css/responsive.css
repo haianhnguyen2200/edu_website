@@ -1,0 +1,78 @@
+.hide {
+  display: none;
+}
+
+@media (max-width: 700px) {
+  .text-box h1 {
+    font-size: 36px;
+  }
+
+  nav img {
+    width: 60px;
+    margin-top: 10px;
+  }
+
+  .nav-links ul li {
+    display: block;
+    padding: 10px;
+    font-size: 20px;
+  }
+
+  .nav-links {
+    position: absolute;
+    background: var(--primary-color);
+    width: 200px;
+    height: 100vh;
+    top: 0;
+    right: -200px;
+    text-align: left;
+    z-index: 1;
+    transition: 1s;
+  }
+
+  .hide {
+    display: block;
+    margin: 10px;
+    font-size: 22px;
+    color: #fff;
+    cursor: pointer;
+  }
+
+  .nav-links ul {
+    padding: 30px;
+    padding-top: 10px;
+  }
+
+  .header-menu {
+    font-size: 28px;
+  }
+
+  .header-close {
+    font-size: 28px;
+    padding: 10px;
+  }
+
+  .row {
+    flex-direction: column;
+  }
+
+  .testimonials-col img {
+    margin-left: 0px;
+    margin-right: 15px;
+  }
+
+  .cta-heading {
+    font-size: 22px;
+  }
+
+  .course-header,
+  .about-header,
+  .blog-header,
+  .contact-header {
+    margin-top: 56px;
+  }
+
+  .blog-header {
+    font-size: 26px;
+  }
+}

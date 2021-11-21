@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BLOG @NEU</title>
+    <link rel="stylesheet" href="./assets/css/main.css"> 
+    <link rel="stylesheet" href="./assets/css/responsive.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com"> 
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous" referrerpolicy="no-referrer" />    
+</head>
+<body>
+<!-- Header -->
+    <header class="sub-header">
+        <nav>
+            <a href="index.html"><img src="/assets/images/logo-neu.png" alt=""></a>
+            <div class="nav-links">
+                <i class="header-close fas fa-times hide" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="course.html">COURSE</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="header-menu fas fa-bars hide" onclick="showMenu()"></i>
+        </nav>
+        <div class="sub-heading">
+            <h1 class="blog-header">OUR CERTIFICATE & ONLINE PROGRAMS FOR 2021</h1>
+        </div>
+    </header>
+<!-- About Us Page Content -->
+    <section class="blog">
+        <div class="row">
+            <div class="blog-left">
+                <img src="/assets/images/certificate.jpg" alt="">
+                <h2>Our Certificate And Online Programs For 2021</h2>
+                <div class="blog-text">
+                    <p>
+                        On the afternoon of October 22th, 2021, the National Economics University cooperating with Thai Nguyen University of Economics and Business Administration, the Startup Support Center, Kazakh Economic Institute, Taiwan Trung Nguyen University and other partners organized an international scientific conference with the theme "Developing an innovative and creative startup ecosystem in the changing world”.
+                    </p>
+                    <br>
+                    <p>
+                        In the opening of the conference, Assoc. Prof. Dr. Bui Duc Tho - Secretary of the Party Committee, Chairman of the University Council, said that over the last two years, Vietnam, which had been an inactive startup ecosystem ranking the penultimate among the six largest ASEAN countries, had developed to become the third place, just behind Indonesia and Singapore. Currently, the innovation startup ecosystem has had important components including individuals, innovative start-up organizations, venture capital funds, business-supporting organizations, university, research-supporting facilities... 
+                    </p>
+                    <br>
+                    <p>
+                        Components in the ecosystem have an increasing connection to promote entrepreneurship. In addition to the development, Vietnam in particular and other countries around the world are facing difficulties caused by the drastic change of the economy in the context of the pandemic. Drastic changes in the worldwide economy in recent years such as the 4.0 technology revolution associated with digital transformation, trade wars and especially the impact of the Covid pandemic have had a significant impact on the development of components in the innovative startup ecosystem of countries. In that context, the conference was aimed to give the answer to the question: What measures do countries take to develop the startup ecosystem and adapt to the environment? 
+                    </p>  
+                    <br>
+                    <p>
+                        At the conference, scientists and experts provided novelty perspectives on the following issues: business models in a new context; opportunities and challenges of Vietnam's innovation and startup ecosystem in the post-Covid context; Israeli startup ecosystem; India's experience in developing an innovative startup ecosystem and startups-supporting policies of the State in Kazakhstan.
+                    </p>
+
+                    <div class="comment-box">
+                        <h3>Leave a comment</h3>
+                        <form action="" class="comment-form">
+                            <input type="text" placeholder="Enter Name">
+                            <input type="email" placeholder="Enter Mail">
+                            <textarea rows="5" placeholder="Your Comment"></textarea>
+                            <button type="submit" class="submit-btn">POST COMMENT</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div class="blog-right">
+                <h3>POST CATEGORY</h3>
+                <div class="post-type">
+                    <span>Business Analytics</span>
+                    <span>21</span>
+                </div>
+                <div class="post-type">
+                    <span>Education</span>
+                    <span>28</span>
+                </div>
+                <div class="post-type">
+                    <span>Technology and Scientific</span>
+                    <span>25</span>
+                </div>
+                <div class="post-type">
+                    <span>Media and Commercial</span>
+                    <span>18</span>
+                </div>
+                <div class="post-type">
+                    <span>Career Opportunities</span>
+                    <span>22</span>
+                </div>
+            </div>
+        </div>
+    </section>
+<!-- Footer -->
+    <footer class="footer">
+        <h3 class="footer-heading">ABOUT US</h3>
+        <p class="footer-text">You can place Font Awesome icons just about anywhere using a style prefix and the icon’s name. <br> We’ve tried to make it so that icons take on the characteristics and appear alongside text naturally.</p>
+        <div class="footer-icons">
+            <i class="fab fa-facebook"></i>
+            <i class="fab fa-instagram"></i>
+            <i class="fab fa-twitter"></i>
+            <i class="fab fa-youtube"></i>
+        </div>
+    </footer>
+<script>
+    var navLinks = document.querySelector('.nav-links');
+
+    function showMenu() {
+        navLinks.style.right = '0';
+    }
+
+    function hideMenu() {
+        navLinks.style.right = '-200px';
+    }
+
+</script>
+</body>
+</html>

@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ABOUT US @NEU</title>
+    <link rel="stylesheet" href="./assets/css/main.css"> 
+    <link rel="stylesheet" href="./assets/css/responsive.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com"> 
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous" referrerpolicy="no-referrer" />    
+</head>
+<body>
+<!-- Header -->
+    <header class="sub-header">
+        <nav>
+            <a href="index.html"><img src="/assets/images/logo-neu.png" alt=""></a>
+            <div class="nav-links">
+                <i class="header-close fas fa-times hide" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="course.html">COURSE</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="header-menu fas fa-bars hide" onclick="showMenu()"></i>
+        </nav>
+        <div class="sub-heading">
+            <h1 class="about-header">ABOUT US</h1>
+        </div>
+    </header>
+<!-- About Us Page Content -->
+    <section class="about">
+        <div class="row">
+            <div class="about-col">
+                <h1 class="about-heading">We are the world's largest university</h1>
+                <p class="about-text">Wonderful, I had been doing all the free courses on this subject and been dabbling with code via various tools over a decade but still unable to comprehend the vastness of css. I worked through your video building my own site and wow, amazing, i have learned so much and will be using this as my base template for the next phase of my learning, thank you so much. I like the fact that you get straight into it without having to woffle on through too much theory.</p>
+                <a href="" class="explore-btn">EXPLORE NOW</a>
+            </div>
+            <div class="about-col">
+                <img src="/assets/images/about.jpg" alt="">
+            </div>
+        </div>
+    </section>
+<!-- Footer -->
+    <footer class="footer">
+        <h3 class="footer-heading">ABOUT US</h3>
+        <p class="footer-text">You can place Font Awesome icons just about anywhere using a style prefix and the icon’s name. <br> We’ve tried to make it so that icons take on the characteristics and appear alongside text naturally.</p>
+        <div class="footer-icons">
+            <i class="fab fa-facebook"></i>
+            <i class="fab fa-instagram"></i>
+            <i class="fab fa-twitter"></i>
+            <i class="fab fa-youtube"></i>
+        </div>
+    </footer>
+<script>
+    var navLinks = document.querySelector('.nav-links');
+
+    function showMenu() {
+        navLinks.style.right = '0';
+    }
+
+    function hideMenu() {
+        navLinks.style.right = '-200px';
+    }
+
+</script>
+</body>
+</html>

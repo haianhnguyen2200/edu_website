@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>COURSE @NEU</title>
+    <link rel="stylesheet" href="./assets/css/main.css"> 
+    <link rel="stylesheet" href="./assets/css/responsive.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com"> 
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous" referrerpolicy="no-referrer" />    
+</head>
+<body>
+<!-- Header -->
+    <header class="sub-header">
+        <nav>
+            <a href="/"><img src="/assets/images/logo-neu.png" alt=""></a>
+            <div class="nav-links">
+                <i class="header-close fas fa-times hide" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="course.html">COURSE</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="header-menu fas fa-bars hide" onclick="showMenu()"></i>
+        </nav>
+        <div class="sub-heading">
+            <h1 class="course-header">OUR COURSES</h1>
+        </div>
+    </header>
+<!-- Course Page Content -->
+    <!-- Course -->
+    <section class="course">
+        <h1 class="course-heading">COURSES WE OFFER</h1>
+        <p class="course-text">We offer various subject in our cirriculum and you can choose anyone which you want to know more and good at that skill.</p>
+
+        <div class="row">
+            <div class="course-col">
+                <h3 class="course-type">Intermediate</h3>
+                <p class="course-detail">AEP is a diverse, student-centered, globally-engaged university committed to providing highly-val-ued undergraduate  educational opportunities. There are three majors including Finance, Accounting, and Interna-tional Business.</p>
+            </div>
+            <div class="course-col">
+                <h3 class="course-type">Degree</h3>
+                <p class="course-detail">Along with the 4.0 revolution in information  technology  and  Big  Data,  this  programme is designed to provide a foundation to those who will determine the scope and direction of data analytics research.</p>
+            </div>
+            <div class="course-col">
+                <h3 class="course-type">Post Graduation</h3>
+                <p class="course-detail">The curriculum was modeled after the California State University, Long Beach, USA. Lecturers in this program come from a variety of academic institutions, including those from NEU, CSULB, and other universities in Vietnam.</p>
+            </div>
+        </div>
+    </section>
+    <!-- Facilities -->
+    <section class="facilities">
+        <h1 class="facilities-heading">OUR FACILITIES</h1>
+        <p class="facilities-text">We offer various subject in our cirriculum and you can choose anyone which you want to know more and good at that skill.</p>
+        
+        <div class="row">
+            <div class="facilities-col">
+                <img src="/assets/images/library.png" alt="">
+                <h3 class="facilities-type">World Class Library</h3>
+                <p class="facilities-detail">All of its international programs are of highly appreciated and have attracted the involvement of many distinguished students.</p>
+            </div>
+            <div class="facilities-col">
+                <img src="/assets/images/basketball.png" alt="">
+                <h3 class="facilities-type">Largest Play Ground</h3>
+                <p class="facilities-detail">A number and scale of research studies jointly conducted by NEU and international academic organizations have been increased substantially.</p>
+            </div>
+            <div class="facilities-col">
+                <img src="/assets/images/cafeteria.png" alt="">
+                <h3 class="facilities-type">Tasty And Healthy Food</h3>
+                <p class="facilities-detail">International cooperation programs have made significant contributions to the university’s achievements.</p>
+            </div>
+        </div>
+    </section>
+<!-- Footer -->
+    <footer class="footer">
+        <h3 class="footer-heading">ABOUT US</h3>
+        <p class="footer-text">You can place Font Awesome icons just about anywhere using a style prefix and the icon’s name. <br> We’ve tried to make it so that icons take on the characteristics and appear alongside text naturally.</p>
+        <div class="footer-icons">
+            <i class="fab fa-facebook"></i>
+            <i class="fab fa-instagram"></i>
+            <i class="fab fa-twitter"></i>
+            <i class="fab fa-youtube"></i>
+        </div>
+    </footer>
+<script>
+    var navLinks = document.querySelector('.nav-links');
+
+    function showMenu() {
+        navLinks.style.right = '0';
+    }
+
+    function hideMenu() {
+        navLinks.style.right = '-200px';
+    }
+
+</script>
+</body>
+</html>
