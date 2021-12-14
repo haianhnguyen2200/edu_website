@@ -2,6 +2,13 @@
   display: none !important;
 }
 
+@media (max-width: 1024px) {
+  .header-close,
+  .header-menu {
+    display: none;
+  }
+}
+
 @media (max-width: 700px) {
   .text-box h1 {
     font-size: 36px;
